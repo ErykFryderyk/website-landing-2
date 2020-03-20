@@ -1,0 +1,33 @@
+
+@import '_settings';
+
+@mixin breakpoint($point) {
+    @if $point == wide {
+        @media only screen and (min-width: $bp-wide) {
+            @content;
+        }
+
+        //1680px
+    }
+    @else if $point==desktop {
+        @media only screen and (min-width: $bp-desktop) {
+            @content;
+        }
+
+        //1024px
+    }
+    @else if $point==tab {
+        @media only screen and (min-width: $bp-tab) {
+            @content;
+        }
+
+        //760px
+    }@else if $point==phone {
+         @media only screen and (min-width: $bp-phone) {
+             @content;
+         }
+
+         //550px
+    }
+}
+
