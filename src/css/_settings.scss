@@ -3,11 +3,18 @@
 
 $white: #fff;
 $green:#71c55d;
+$dark-green: #55b03f;
+$light: #777;
+$bright: #777;
 $lighter-gray: #626262;
+$brighter-gray: #626262;
+$logo: #555;
 $light-gray:#505050;
+$bright-gray:#505050;
 $gray:#343b40;
 $dark-gray: #3c4857;
 $dark:#333;
+$darker: #252525;
 $black: #000;
 
 // ------------------------OPACITY COLORS
@@ -17,6 +24,10 @@ $gray-opacity: rgba(52, 59, 64, 0.9);
 
 // ------------------------BREAKPOINTS
 $bp-wide: 1680px;
-$bp-desktop: 1024px;
-$bp-tab: 760px;
-$bp-phone: 550px;
+$bp-desktop: 1200px;
+$bp-tablet: 992px;
+$bp-tab: 768px;
+$bp-phone: 576px;
+
+//-------------------------BOX SHADOW 
+$standard: 0 3px 7px rgba(0, 0, 0, 0.1);

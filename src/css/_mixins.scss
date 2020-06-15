@@ -7,27 +7,32 @@
             @content;
         }
 
-        //1680px
+        //bp-wide 1680px
     }
     @else if $point==desktop {
         @media only screen and (min-width: $bp-desktop) {
             @content;
         }
 
-        //1024px
+        //bp-desktop 1200px
     }
-    @else if $point==tab {
+    @else if $point==tablet {
+        @media only screen and (min-width: $bp-tablet) {
+            @content;
+        }
+        //bp-tablet 992px
+    }@else if $point==tab {
         @media only screen and (min-width: $bp-tab) {
             @content;
         }
 
-        //760px
+        //bp-tab768px
     }@else if $point==phone {
          @media only screen and (min-width: $bp-phone) {
              @content;
          }
 
-         //550px
+         //bp-phone 576px
     }
 }
 
